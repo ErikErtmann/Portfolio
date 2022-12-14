@@ -1,0 +1,94 @@
+.flexbox-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap:wrap;
+  /* The flex-wrap property is set to wrap, which causes the flexbox to 
+  automatically create a new row or column for the new items. 
+  This prevents the existing items from being moved or rearranged. */
+  /* overflow-x:scroll; */
+  
+
+
+}
+
+.fullname{
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  font-size: 110px;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: -6.5px;
+  line-height: 130px;
+  text-transform: none;
+  color: linen;
+  /* border:3px solid linen; */
+}
+
+.info-with-name{
+  font-family: Esteban, Georgia, 'Times New Roman', serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: -0.5px;
+  line-height: 20px;
+  text-transform: none;
+  color: linen;
+  margin-left: 5.7px;
+  /* border:3px solid linen; */
+}
+
+.flexbox-item-image{
+  margin-top: 73px;
+  opacity: 0.55;
+  width: 350px;
+  height: 850px;
+  transition-duration: 4s;
+  /* border:3px solid linen; */
+}
+
+.flexbox-item-image:hover{
+   opacity: 0.73;
+   color: #111; 
+   filter:drop-shadow(0 0 15.25rem linen);
+   transition: all 1s ease-in-out;
+   transform: scale(1.03)
+  }
+
+.socials{
+  margin-top: -519.5px;
+  margin-left: 880px;
+  height: fit-content;
+  width: fit-content;
+  /* border:3px solid rgb(0, 255, 115); */
+}
+.social{ 
+  margin: 5px;
+  height: 35px;
+  width: 35px;
+  padding: 0px;
+  transition-duration: .25s;
+  /* border:3px solid linen; */
+}
+.social:hover{
+  opacity: .75;
+  /* filter:drop-shadow(15px 15px 15px linen); */
+  filter:invert(5);
+  transition: all .25s ease-in-out;
+  transform: scale(1.25)
+  /* border:3px solid linen; */
+}
+
+.box{
+  /* position:relative; */
+  /* align-items: left; */
+  /* max-width: 980000.5vh; */
+  /* width: max; */
+  height: 2.8vh;
+  /* margin:left; */
+  margin-top: 0px;
+  background: rgba(2, 252, 252, 0.925);
+  box-shadow: 0 5px 15px rgba(0,8,0,.5);
+  border:3px solid;
+  opacity: 0.1;
+  
+}

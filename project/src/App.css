@@ -1,0 +1,29 @@
+/* removes scrolling */
+body{
+  overflow: hidden;
+}
+/* removes scrolling */
+
+.content {
+  padding:12px;
+  height: 949px;
+  color: red;
+}
+
+.block{
+  display:block;
+  position: relative;
+  visibility: hidden;
+  height: 40.5px;
+  top: 0px;
+}
+
+/* .line{
+  width: 1903px;
+  height: 40.5px;
+  opacity: .1;
+  background: linear-gradient(180deg, #29f499, #00f0ac, #00eabf, #00e5d0,
+  #00dee0, #00d7ed, #00d0f8, #00c7ff, #00bfff, #00b5ff, #00abff,
+  #01a1fa);  box-shadow: 0 5px 15px rgba(0,8,0,.5);
+  z-index: -2;
+} */

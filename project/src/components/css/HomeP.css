@@ -7,7 +7,7 @@
     automatically create a new row or column for the new items. 
     This prevents the existing items from being moved or rearranged. */
     /* flex-direction: column or row; */
-    /* overflow-x:scroll; */
+    /* overflow-y:scroll; */
     /* border:3px solid linen; */
   }
   
@@ -46,6 +46,7 @@
     width: 350px;
     height: 850px;
     transition-duration: 4s;
+    z-index: 2000;
     /* border:3px solid linen; */
   }
   
@@ -54,7 +55,7 @@
      color: #111; 
      filter:drop-shadow(0 0 15.25rem linen);
      transition: all 1s ease-in-out;
-     transform: scale(1.03) translate(-10%,0%);
+     transform: scale(1.016) translate(-10%,-1%);
     }
   
   .socials{
@@ -94,3 +95,4 @@
     opacity: 2;
     
   }
+

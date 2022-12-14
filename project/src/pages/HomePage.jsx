@@ -2,6 +2,7 @@ import "../components/css/HomeP.css";
 
 function HomePage() {
     return (
+    <div className="home" id="home">
         <div className="flexbox-container">
             <div className="flexbox-item-nameinfo">
                 <div className="fullname">Erik Ertmann</div>
@@ -21,6 +22,7 @@ function HomePage() {
             </div> 
             <img className="flexbox-item-image" src="https://www.upload.ee/image/14743660/319643355_523223803190947_5287792033886948790_n-removebg-preview.png" alt="ERROR"/>
         </div>
+    </div> 
     );
 }
 

@@ -105,6 +105,7 @@ function Particle() {
             "lineLinked": {
                 "blink": true,
                 "color": "#ffffff",
+                // "color": "#00e9ff",
                 "consent": false,
                 "distance": 150,
                 "enable": true,

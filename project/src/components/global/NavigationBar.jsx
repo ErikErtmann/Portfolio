@@ -1,7 +1,5 @@
-/* eslint-disable no-unused-vars */
 import { Navbar, Nav } from 'react-bootstrap';
-// the code is actually using it
-import styles from "../css/NavigationB.css";
+import "../css/NavigationB.css";
 
 function NavigationBar() {
   return (

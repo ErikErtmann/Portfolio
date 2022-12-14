@@ -1,8 +1,9 @@
 import './App.css';
 import HomePage from './pages/HomePage';
 import {Route, Routes} from   'react-router-dom';
-import Particle from './components/Particle';
+import Particle from './components/global/Particle';
 import NavigationBar from './components/global/NavigationBar';
+
 
 
 function App() {

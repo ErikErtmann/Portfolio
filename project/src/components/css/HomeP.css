@@ -1,0 +1,96 @@
+.flexbox-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap:wrap;
+    /* The flex-wrap property is set to wrap, which causes the flexbox to 
+    automatically create a new row or column for the new items. 
+    This prevents the existing items from being moved or rearranged. */
+    /* flex-direction: column or row; */
+    /* overflow-x:scroll; */
+    /* border:3px solid linen; */
+  }
+  
+  /* .flexbox-item-nameinfo{
+    border:3px solid linen;
+  }  */
+
+  .fullname{
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-size: 110px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: -6.5px;
+    line-height: 130px;
+    text-transform: none;
+    color: linen;
+    /* border:3px solid linen; */
+  }
+  
+  .info-with-name{
+    font-family: Esteban, Georgia, 'Times New Roman', serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: -0.5px;
+    line-height: 20px;
+    text-transform: none;
+    color: linen;
+    margin-left: 5.7px;
+    /* border:3px solid linen; */
+  }
+  
+  .flexbox-item-image{
+    margin-top: 60px;
+    opacity: 0.55;
+    width: 350px;
+    height: 850px;
+    transition-duration: 4s;
+    /* border:3px solid linen; */
+  }
+  
+  .flexbox-item-image:hover{
+     opacity: 0.73;
+     color: #111; 
+     filter:drop-shadow(0 0 15.25rem linen);
+     transition: all 1s ease-in-out;
+     transform: scale(1.03) translate(-10%,0%);
+    }
+  
+  .socials{
+    margin-top: -133px;
+    margin-left: 630px;
+    height: 140px;
+    width: 50px;
+    /* border:3px solid rgb(0, 255, 115); */
+  }
+  .social{ 
+    margin: 5px;
+    height: 36px;
+    width: 36px;
+    padding: 0px;
+    transition-duration: .25s;
+    /* border:3px solid linen; */
+
+  }
+  .social:hover{
+    opacity: .75;
+    /* filter:drop-shadow(15px 15px 15px linen); */
+    filter:invert(5);
+    transition: all .25s ease-in-out;
+    transform: scale(1.25) rotate(1turn);
+    /* border:3px solid linen; */
+  }
+  
+  .box{
+    /* max-width: 980000.5vh; */
+    margin-left: 5.35px;
+    width: 500px;
+    height: 15.5px;
+    background: linear-gradient(180deg, #29f499, #00f0ac, #00eabf, #00e5d0,
+     #00dee0, #00d7ed, #00d0f8, #00c7ff, #00bfff, #00b5ff, #00abff,
+      #01a1fa);  box-shadow: 0 5px 15px rgba(0,8,0,.5);
+    /* border:3px solid; */
+    opacity: 2;
+    
+  }

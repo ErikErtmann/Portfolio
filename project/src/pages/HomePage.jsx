@@ -6,7 +6,7 @@ function HomePage() {
         <div className="flexbox-container">
             <div className="flexbox-item-nameinfo">
                 <div className="fullname">Erik Ertmann</div>
-                <div className="info-with-name">I'm a blablabla from Tartu, Estonia</div>   
+                <div className="info-with-name">I'm a blablabla from Tartu, Estonia</div>
                 <div className="socials">
                     <a href= "https://www.linkedin.com/in/erik-ertmann-ab330322b/" rel="noreferrer" target="_blank">
                     <img className="social" src={require("../images/linkedincolour.png")} alt=""/>
@@ -20,7 +20,7 @@ function HomePage() {
                 </div>
                 <div className="box"></div>   
             </div> 
-            <img className="flexbox-item-image" src="https://www.upload.ee/image/14743660/319643355_523223803190947_5287792033886948790_n-removebg-preview.png" alt="ERROR"/>
+            <img className="flexbox-item-image" src="https://www.upload.ee/image/14747181/319172197_886314719228597_8227624229910881166_n-removebg-preview.png" alt="ERROR"/>
         </div>
     </div> 
     );

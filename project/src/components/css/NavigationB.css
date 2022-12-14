@@ -26,16 +26,19 @@
     color:linen;
     transition: all .25s ease-in;
     transform: scale(1.1);
+    text-shadow: 0px 0px 20px rgb(0, 238, 255);
     /* border-left-style: none;
     border-right-style: none;
     border-color: red; */
 }
 
 .active{
-    color:transparent;
+    /* color:transparent;
     background: linear-gradient(180deg, #29f29b, #00ebb8, #00e2d4, #00d8eb, #00ccfb, #00beff, #00afff, #009ffc);
-    border-radius: 3px;
-    transition: all .25s ease-in-out;
+    border-radius: 3px; */
+    text-shadow: 0px 10px 6px rgb(0, 238, 255);
+    transition: all .75s ease-in-out;
+    color: white !important;
 }
 
 /* .navbox{
@@ -50,3 +53,4 @@
      #01a1fa);  box-shadow: 0 5px 15px rgba(0,8,0,.5);
     z-index: -1;
 } */
+

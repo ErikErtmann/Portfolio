@@ -45,16 +45,18 @@
     opacity: 0.55;
     width: 350px;
     height: 850px;
-    transition-duration: 4s;
+    transition-duration: 2s;
+    transition: all 1.5s ease-in-out;
     z-index: 2000;
+    filter: grayscale(110%);
     /* border:3px solid linen; */
   }
   
   .flexbox-item-image:hover{
      opacity: 0.73;
      color: #111; 
-     filter:drop-shadow(0 0 15.25rem linen);
-     transition: all 1s ease-in-out;
+     filter:drop-shadow(50px 0px 5.25rem linen) grayscale(0%);
+     transition: all 1.5s ease-in-out;
      transform: scale(1.016) translate(-10%,-1%);
     }
   
@@ -77,20 +79,26 @@
   .social:hover{
     opacity: .75;
     /* filter:drop-shadow(15px 15px 15px linen); */
-    filter:invert(5);
+    filter:invert(5)drop-shadow(0 0 0.75rem crimson)drop-shadow(0 0 0.75rem crimson);
     transition: all .25s ease-in-out;
     transform: scale(1.25) rotate(1turn);
+    /* filter: drop-shadow(0 0 0.75rem crimson); */
     /* border:3px solid linen; */
   }
   
   .box{
     /* max-width: 980000.5vh; */
-    margin-left: 5.35px;
-    width: 500px;
+    margin-left: 7.95px;
+    width: 650px;
     height: 15.5px;
-    background: linear-gradient(180deg, #29f499, #00f0ac, #00eabf, #00e5d0,
+    background-image : linear-gradient(to left, 
+    rgba(255,255,255, 0), 
+    rgb(0, 255, 255) 170%);
+
+    /* background: linear-gradient(180deg, #29f499, #00f0ac, #00eabf, #00e5d0,
      #00dee0, #00d7ed, #00d0f8, #00c7ff, #00bfff, #00b5ff, #00abff,
-      #01a1fa);  box-shadow: 0 5px 15px rgba(0,8,0,.5);
+      #01a1fa);  
+    box-shadow: 0 5px 15px rgba(0,8,0,.5); */
     /* border:3px solid; */
     opacity: 2;
     

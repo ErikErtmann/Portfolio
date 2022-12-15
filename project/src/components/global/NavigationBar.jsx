@@ -13,7 +13,7 @@ function NavigationBar() {
               <Nav.Link href="#home"className='caption'>Home</Nav.Link>
               <Nav.Link href="#about"className='caption'>About</Nav.Link>
               <Nav.Link href="#resume"className='caption'>Resume</Nav.Link>
-              <Nav.Link href="#contact"className='caption'>Contact Me</Nav.Link>
+              <Nav.Link href="#contact"className='caption'>Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

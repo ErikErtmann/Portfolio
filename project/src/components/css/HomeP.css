@@ -45,18 +45,17 @@
     opacity: 0.55;
     width: 350px;
     height: 850px;
-    transition-duration: 2s;
-    transition: all 1.5s ease-in-out;
+    transition: 2s;
     z-index: 2000;
-    filter: grayscale(110%);
+    filter: grayscale(1000%);
     /* border:3px solid linen; */
   }
   
   .flexbox-item-image:hover{
-     opacity: 0.73;
+     opacity: .85;
      color: #111; 
+     transition: 2s;
      filter:drop-shadow(50px 0px 5.25rem linen) grayscale(0%);
-     transition: all 1.5s ease-in-out;
      transform: scale(1.016) translate(-10%,-1%);
     }
   

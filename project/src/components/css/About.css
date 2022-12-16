@@ -1,0 +1,81 @@
+#about{
+    padding:30px 10px;
+    /* padding: ülevalt, vasakult paremalt */
+}
+
+/* .ContainerAboutMe {
+    max-height: 890px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border:3px solid linen;
+} */
+
+.aboutmerow{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: fixed;
+    border:3px solid linen;
+}
+
+.aboutcol{
+    flex-basis: 0%;
+    margin-left: 11.5%;
+    margin-top: 3%;
+    border:3px solid linen;
+}
+
+.title {
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: .5px;
+    line-height: auto;
+    text-transform: none;
+    color: linen;
+}
+
+.aboutcol img{
+    width: 350px;
+    height: auto;
+    border-radius: 15px;
+    border:3px solid linen;
+}
+
+.aboutcol2{
+    flex-basis:10%;
+    margin-right: auto;
+    margin-bottom: auto;
+    /* padding: 190px; */
+    border:3px solid linen;
+}
+
+.parag {
+    font-family: Esteban, Georgia, 'Times New Roman', serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: -0.5px;
+    line-height: 20px;
+    text-transform: none;
+    color: linen;
+}
+
+.aboutmore{
+    display: flex;
+    margin: 43px 0px 0px;
+}
+
+.aboutmorelinks{
+    margin-right: 90px;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: .5px;
+    line-height: 130px;
+    text-transform: none;
+    color: linen;
+}

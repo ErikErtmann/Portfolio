@@ -1,0 +1,17 @@
+#resume{
+    padding: 30px;
+}
+
+.ContainerResume {
+    padding: 10px;
+    max-height: 890px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border:3px solid linen;
+}
+
+.picofmeresume{
+    width: 450px;
+    height: auto;
+}

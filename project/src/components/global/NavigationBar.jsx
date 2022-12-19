@@ -14,6 +14,7 @@ function NavigationBar() {
               <Nav.Link href="#about"className='caption'>About</Nav.Link>
               <Nav.Link href="#resume"className='caption'>Resume</Nav.Link>
               <Nav.Link href="#contact"className='caption'>Contact</Nav.Link>
+              <Nav.Link href="#aboutenne"className='caption'>AboutEnne</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

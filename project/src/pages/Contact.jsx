@@ -1,37 +1,45 @@
-import "../components/css/Contact.css";
+import emailjs from 'emailjs-com';
+import { ToastContainer, toast } from 'react-toastify';
+import { useRef } from 'react'
 
 function Contact() {
+    const nameRef = useRef();
+    const emailRef = useRef();
+    const messageRef = useRef();
+
+    const sendEmail = () => {
+        const params = {
+            "from_name": `${nameRef.current.value} (their e-mail address: ${emailRef.current.value})`,
+            "to_name": "Erik",
+            "message": messageRef.current.value
+        }
+    
+    emailjs.send('service_enc290a', 'template_zbxt7u2', params, 'j_ePGUxkr48bkDG-m')
+    .then(() => {
+        toast.success("Email successfully sent")
+        nameRef.current.value = "";
+        emailRef.current.value = "";
+        messageRef.current.value = "";
+    }, (error) => {
+        toast.error(error.text);
+    });
+};
+
     return (
-        <div className="ContainerContact">
-      
-          <div class="picofmecontact">
-            <img className="picofme" src={require("../images/AboutMe.png")} alt=""/>
-          </div>
-      
-          <div class="aboutmecontact">
-            <h1>About Me</h1>
-          </div>
-          <div>
-        <p>
-            Hi I am Erik. I'm a blablablabla. 
-        </p>
-        
-        <p>
-            My main area of expertise is web dev and I have experience with 
-            technologies such as JavaScript, React and Python.
-        </p>
-        
-        <p>
-          In my free time, I enjoy being with friends and family, traveling, and 
-          learning new programming languages. I am also an avid reader and 
-          enjoy reading books on a variety of topics.
-        </p>
-        
-        <p>
-          Thank you for visiting my portfolio. If you have any questions or would like 
-          to work with me, please don't hesitate to CONTACT ME.
-        </p>
-        </div> 
-        </div>);
-      }
+        <div className="contact" id="contact">
+            <label> Your name </label> <br/>
+            <input ref= {nameRef} type="text" /> <br/>
+            <label> Your email </label> <br/>
+            <input ref= {emailRef} type="text" /> <br/>
+            <label> Your message </label> <br/>
+            <input ref= {messageRef} type="text" /> <br/>
+
+
+
+            <button onClick={sendEmail}>Send e-mail</button>
+            <ToastContainer />
+        </div>
+      );
+}
+
 export default Contact;

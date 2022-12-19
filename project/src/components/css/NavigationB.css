@@ -49,8 +49,6 @@
     position: relative;
     display: inline-block;
     transition: all .75s ease-in-out;
-    
-    
 }
 
 .active{

@@ -6,7 +6,6 @@ import NavigationBar from './components/global/NavigationBar';
 import About from './pages/About';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
-import AboutEnne from './pages/AboutEnne';
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/anchor-has-content */
 
@@ -37,10 +36,6 @@ function App() {
        <Contact/>
       </div>
 
-      <div className='content' >
-      <a className='block'id="aboutenne"></a>
-       <AboutEnne/>
-      </div>
     </div>
   );
 }

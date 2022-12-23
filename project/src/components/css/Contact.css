@@ -1,16 +1,35 @@
-#contact{
+/* #contact{
     padding:30px;
-}
-.ContainerContact {
-    padding: 10px;
-    max-height: 890px;
+} */
+
+.ContactContainer{
     display: flex;
     align-items: center;
-    justify-content:center;
-    border:3px solid linen;
+    justify-content: center;
+    height:91.5%;
+    /* border:3px solid linen; */
 }
 
-.picofmecontact{
-    width: 450px;
-    height: auto;
+/* form {
+    display: flex;
+    flex-direction: row;
+    border:3px solid linen;
+} */
+
+.ContactColumn{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    min-width: 300px;
+    max-width: 300px;
+    /* border:3px solid linen; */
+}
+
+
+.background{
+    display: flex;
+    /* border: 3px solid red; */
+    padding: 40px;
+    background-color: rgba(172, 172, 172, 0.05);
+    z-index: 1;
 }

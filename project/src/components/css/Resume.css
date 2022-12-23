@@ -1,29 +1,147 @@
-#resume{
-    padding: 30px;
-}
+/* #about{
+    padding:-100px 0px;
+    display: grid;
+    padding: ülevalt, vasakult paremalt
+} */
 
 .ContainerResume {
-    padding: 10px;
-    max-height: 890px;
     display: flex;
     align-items: center;
-    justify-content:center;
-    border:3px solid linen;
+    justify-content: center;
+    height: 94%;
+    /* border:3px solid linen; */
 }
 
-.picofmeresume{
-    width: 350px;
-    height: auto;
-    margin-left: 50px;
-    border:3px solid linen;
+.resumerow{
+    display: flex;
+    justify-content: center;
+    max-width: 95%;
+    min-width: 95%;
+    padding-right: 8.3%;
+    /* border:3px solid linen; */
+
 }
 
-.aboutmeresume{
-    margin-left: 0px;
-    border:3px solid linen;
+.resumecol{
+    flex-basis: 35%;
+    align-self: center;
+    margin-left: 10%;
+    /* border:3px solid rgb(255, 11, 11); */
 }
 
-.resumestuff{
-    margin-left: 260px;
-    border:3px solid linen;
+.resumetitle {
+    display: inline-flex;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: .5px;
+    line-height: auto;
+    text-transform: none;
+    color: linen;
+    /* border: 3px solid linen; */
 }
+
+
+.box1resume{
+    /* display: inline-flex; */
+    width: calc(80%);
+    height: 15.5px;
+    margin-top: -22.4px;
+    background-image : linear-gradient(to left, 
+    rgba(255,255,255, 0), 
+    rgb(0, 255, 255) 170%);
+    /* border: 3px solid linen; */
+}
+
+.resumecol2{
+    flex-basis:40%;
+    align-self: center;
+    /* border:3px solid linen; */
+}
+
+.resumemore{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    padding-right: 20px;
+    /* border:3px solid rgb(236, 118, 0); */
+}
+
+.resumemorelinks{
+    align-self: flex-end;
+    margin-right: 1.5%;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: .5px;
+    line-height: 40px;
+    text-transform: none;
+    color: linen;
+    direction: rtl;
+    transition: 0.35s;
+    z-index: 1;
+    /* border:3px solid rgb(247, 169, 91); */
+}
+
+.resumemorelinks:hover{
+    color:linen;
+    transform: scale(1.15);
+    text-shadow: 0px 0px 20px rgb(0, 238, 255);
+    transition: all .75s ease-in-out;
+    cursor:pointer;
+}
+
+.resumemorelinks::before {
+    content: "";
+    position: fixed;
+    bottom: -3px;
+    left: 0;
+    width: 0px;
+    height: 3px;
+    color: white;
+    background: rgb(0, 238, 255);
+    transition: width 0.35s ease-in-out;
+    /* border:3px solid linen; */
+}
+
+.resumemorelinks:hover::before {
+    width: 100%;
+    transition: width .35s ease-in-out;
+}
+
+/* .aboutmorelinks:active{
+    content: '';
+    width: 100%;
+    transform: scale(1.25);
+    text-decoration: underline rgb(0, 238, 255); 
+    text-decoration-thickness: 3px;
+    transition: all .75s ease-in-out;
+    color: white !important;
+    border:3px solid linen;
+} */
+
+
+.resumecol3{
+    flex-basis: 43%;
+    align-self: center;
+    /* border:3px solid rgb(16, 98, 136);     */
+}
+
+.resumeparag {
+    font-family: Esteban, Georgia, 'Times New Roman', serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: -0.5px;
+    line-height: 20px;
+    text-transform: none;
+    color: linen;
+    /* margin-top: 23.5%; */
+    /* margin-left: -25%; */
+    padding: .5%;
+    /* border:3px solid rgb(82, 162, 199); */
+}
+
+

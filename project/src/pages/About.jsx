@@ -71,7 +71,20 @@ function About() {
 }
 
 export default About;
+// mul oleks vaja et ta on 1. rida name: lünk
+                      //   2. rida email: lünk
+                      //   3. rida message: lünk
+// meanwhile on kõik columnis
 
-          // <h3 className="aboutmorelinks" onclick="opentab('introduction')">Introduction</h3>
-          // <h3 className="aboutmorelinks" onclick="opentab('courses')">Courses</h3>
-          // <h3 className="aboutmorelinks" onclick="opentab('education')">Education</h3>
+/* <div className='ContactRow'>
+<label className='parag' htmlFor="name">Name:</label>
+<input type="text" id="name" ref={nameRef} />
+</div>
+<div className='ContactRow'>
+<label className='parag' htmlFor="email">Email:</label>
+<input type="email" id="email" ref={emailRef} />
+</div>
+<div classname='ContactRow'>
+<label className='parag' htmlFor="message">Message:</label>
+<textarea id="message" ref={messageRef} />
+</div> */

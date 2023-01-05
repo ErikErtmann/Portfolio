@@ -2,12 +2,19 @@ import "../components/css/Resume.css";
 import { useState } from "react";
 
 function Resume() {
-  const [text, setText] = useState("empty");
+  const [text, setText] = useState("Check out my CV and projects");
 
   const handleProjectsClick = () => {
     setText(
     <p>
-      Projects
+      E-shop that I built during a course, feel free to register with non-correct information to gain access to admin panel.
+       <a href="https://myrugs.web.app/" rel="noreferrer" target="_blank">Link</a>
+      <br/><br/>
+      E-shop I am currently building for a friend.    
+       <a href="https://erikertmann.github.io/SokiPood/" rel="noreferrer" target="_blank">Link</a>
+      <br/><br/>
+      Non-deployed code on GitHub.
+        <a href="https://github.com/ErikErtmann?tab=repositories" rel="noreferrer" target="_blank">Link</a>
     </p>
     );
   };

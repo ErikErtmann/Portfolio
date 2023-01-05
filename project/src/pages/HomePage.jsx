@@ -6,7 +6,7 @@ function HomePage() {
         <div className="flexbox-container">
             <div className="flexbox-item-nameinfo">
                 <div className="fullname">Erik Ertmann</div>
-                <div className="info-with-name">I'm a blablabla from Tartu, Estonia</div>
+                <div className="info-with-name">I'm a front-end developer from Tartu, Estonia</div>
                 <div className="socials">
                     <a href= "https://www.linkedin.com/in/erik-ertmann-ab330322b/" rel="noreferrer" target="_blank">
                     <img className="social" src={require("../images/linkedincolour.png")} alt=""/>

@@ -46,7 +46,7 @@
     width: 350px;
     height: 850px;
     transition: 2s;
-    z-index: 2000;
+    z-index: 900;
     filter: grayscale(1000%);
     /* border:3px solid linen; */
   }
@@ -101,3 +101,48 @@
 
   }
 
+@media only screen and (max-width: 600px) {
+
+
+  .flexbox-container{
+    flex-direction: row;
+    overflow: hidden;
+  }
+
+  .fullname{
+    font-size: 55px;
+    line-height: 70px;
+    letter-spacing: -3px;
+    margin-left: 5vw;
+    margin-top: 18vw;
+    
+  }
+
+  .info-with-name{
+    font-size: 15px;
+    margin-left: 5.7vw;
+  }
+
+  .flexbox-item-image{
+    margin-top: 20px;
+    width: 60vw;
+    height: 140vw;
+    opacity: 1;
+  }
+  
+  .socials{
+    margin-top: -30vw;
+    margin-left: 90vw;
+  }
+
+  .social{
+    width: 6vw;
+    height: auto;
+    margin-top: 3.5vw;
+  }
+  
+  .box{
+    width: 100vw;
+    margin-left: 5.5vw;
+  }
+}

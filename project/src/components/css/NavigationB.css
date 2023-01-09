@@ -63,5 +63,41 @@
     /* border:3px solid linen; */
 }
 
+@media only screen and (max-width: 600px) {
+.flexbox-container-navbar{
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    /* border:3px solid linen; */
+    width: 100vw;
+  }
+  
+  .mr-auto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: -172px; */
+    /* border:3px solid linen; */
+    top: 0;
+  }
 
+  .caption {
+    font-size: 18px;
+    margin: 1vw 2.5vw;
+    /* border:3px solid linen; */
+  }
+  
+  .caption:before {
+    display: none;
+  }
+  
+  .caption:hover {
+    transform: none;
+    text-shadow: none;
+  }
+
+}
 

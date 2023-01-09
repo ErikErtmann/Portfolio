@@ -12,10 +12,10 @@ function Contact() {
     const recaptchaRef = useRef();
 
     const sendEmail = () => {
-        if (!recaptchaRef.current.getValue()) {
-            toast.error('Please complete the CAPTCHA');
-            return;
-        }
+        // if (!recaptchaRef.current.getValue()) {
+        //     toast.error('Please complete the CAPTCHA');
+        //     return;
+        // }
 
         if (!nameRef.current.value.trim() || !emailRef.current.value.trim() || !messageRef.current.value.trim()) {
             toast.error('Please fill out all the fields')
@@ -57,7 +57,7 @@ function Contact() {
                 <label className='parag' htmlFor="message">Message:</label>
                 <textarea id="message" ref={messageRef} />
                 <br />
-                <ReCAPTCHA ref ={recaptchaRef} sitekey="6LeCkJ8jAAAAABP37mIxG8GmfTlIjJMmBgnBpob-" />
+                <ReCAPTCHA ref ={recaptchaRef} sitekey="AIzaSyDtpFI83gsPZNfivW5M4A9kWPQ-65zJlv0" />
                 <button type="button" onClick={sendEmail}>
                 Send
                 </button>
